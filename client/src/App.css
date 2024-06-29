@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.light {
+    width: 100vw;
+    min-height: 100vh;
+    background: #bfc2cf;
+    color: #333;
+}
+  
+.dark {
+    width: 100vw;
+    min-height: 100vh;
+    background-color: #333;
+    color: #fff;
+  }

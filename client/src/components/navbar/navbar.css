@@ -1,0 +1,127 @@
+.logo{
+    font-size: 5em;
+    cursor: pointer;
+}
+span{
+    font-weight: bold;
+    font-size: 2em;
+}
+ul{
+    flex: 1;
+    list-style: none;
+    text-align: center;
+    margin-top: 2em;
+}
+ ul li{
+    display: inline-block;
+    margin: 0.1em 1em;
+    font-size: 1.2em;
+    cursor: pointer;
+ }
+ ul li:hover{
+   text-decoration: underline;
+ }
+
+ .toggle-icon{
+    font-size: 2em;
+    cursor: pointer;
+    margin-left: 2em;
+    margin-top: 1.3em;
+ }
+ .search-box{
+    display: flex;
+    align-items: center;
+    background: #242424;
+    padding: 0.5em 1em;
+    border-radius: 2em;
+    height: 3em;
+    margin-top: 2em;
+ }
+ .search-box input{
+    padding: 6px;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    color: #fff;
+    font-size: 1em;
+    max-width: 200px;
+ }
+ .search-box input::placeholder{
+    color: #fff;
+ }
+ #search{
+    width: 1.2em;
+    cursor: pointer;
+    color: #fff;
+ }
+ .light {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    padding: 1em 5%;
+    height: 10%;
+  }
+  
+  .dark {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    padding: 1em 5%;
+    background-color: #333;
+    color: #fff;
+    height: 10%;
+  }
+  .logo-content:hover{
+    color:aqua;
+}
+
+  @media screen and (max-width: 768px) {
+    .logo-content:hover{
+        color:aqua;
+    }
+    .logo{
+        font-size: 1.7em;
+        cursor: pointer;
+    }
+    span{
+        font-weight: bold;
+        font-size: 1em;
+    }
+    ul{
+        list-style: none;
+        text-align: start;
+        margin-top: 2em;
+        top:5em;
+        position: absolute;
+    }
+    ul li{
+        display: block;
+        margin:2em 0em  2em 0em ;
+        font-size: 1.2em;
+        cursor: pointer;
+        width: 100%;
+        height: 2em;
+        align-items: center;
+    }
+    ul li:hover{
+       color: aqua;
+    }
+    .toggle-icon{
+        font-size: 1.7em;
+        cursor: pointer;
+        margin-left: 0.1em;
+        margin-top: 0.4em;
+     }
+     .search-box{
+        display: flex;
+        align-items: center;
+        background: #242424;
+        padding: 0.5em 1em;
+        border-radius: 2em;
+        height: 3em;
+        margin-left: 3em;
+        margin-top: 0.1em;
+     }
+  }
